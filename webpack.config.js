@@ -15,9 +15,10 @@ module.exports = {
                 use: ["babel-loader"],
             },
             {
-                test: /\.css$/,
-                use: ["style-loader", "css-loader"]
-            }
+                test: /\.mp3$/,
+                include: path.join(__dirname,'/src/Assets'),
+                use: ["file-loader"],
+            },
         ]
     },
     plugins: [
