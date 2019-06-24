@@ -36,8 +36,13 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "glamor": "^2.20.40",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-horizontal-timeline": "^1.5.3",
+    "react-swipeable-views": "^0.13.3",
     "style-loader": "^0.23.1"
   }
 }
