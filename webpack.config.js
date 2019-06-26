@@ -19,6 +19,17 @@ module.exports = {
                 include: path.join(__dirname,'/src/Assets'),
                 use: ["file-loader"],
             },
+            {
+                test: /\.(png|jpe?g|gif|JPE?G|PNG)$/i,
+                use:    [
+                    {
+                        loader: "url-loader",
+                        options: {
+                            limit: false,
+                        },
+                    }
+                ]
+            }
         ]
     },
     plugins: [
