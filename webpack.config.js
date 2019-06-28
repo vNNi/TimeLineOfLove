@@ -15,8 +15,20 @@ module.exports = {
                 use: ["babel-loader"],
             },
             {
-                test: /\.css$/,
-                use: ["style-loader", "css-loader"]
+                test: /\.mp3$/,
+                include: path.join(__dirname,'/src/Assets'),
+                use: ["file-loader"],
+            },
+            {
+                test: /\.(png|jpe?g|gif|JPE?G|PNG)$/i,
+                use:    [
+                    {
+                        loader: "url-loader",
+                        options: {
+                            limit: false,
+                        },
+                    }
+                ]
             }
         ]
     },
