@@ -17,7 +17,15 @@ module.exports = {
             {
                 test: /\.mp3$/,
                 include: path.join(__dirname,'/src/Assets'),
-                use: ["file-loader"],
+                use: [
+                    {
+                        loader: "file-loader",
+                        options: {
+                            limit: false,
+                            name: "song/[hash].[ext]"
+                        }
+                    }
+                ],
             },
             {
                 test: /\.(png|jpe?g|gif|JPE?G|PNG)$/i,
@@ -26,6 +34,7 @@ module.exports = {
                         loader: "url-loader",
                         options: {
                             limit: false,
+                            name: "img/[hash].[ext]"
                         },
                     }
                 ]
