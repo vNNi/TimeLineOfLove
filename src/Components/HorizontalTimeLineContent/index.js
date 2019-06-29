@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 import SwipeableViews from 'react-swipeable-views';
 import HorizontalTimeline from 'react-horizontal-timeline';
+import Colors from '../../Colors';
 
 export default class index extends Component {
     constructor(props){
@@ -22,7 +22,7 @@ export default class index extends Component {
             sliddingMotionStiffness: 150,
             sliddingMotionDamping: 25,
             stylesBackground: '#f8f8f8',
-            stylesForeground: '#7b9d6f',
+            stylesForeground: Colors.loveSEcondary,
             stylesOutline: '#dfdfdf',
             isTouchEnabled: true,
             isKeyboardEnabled: true,
@@ -30,14 +30,11 @@ export default class index extends Component {
             isOPenBeginning: true,
         };
     }
-    static propTypes = {
-        content: PropTypes.arrayOf(PropTypes.object).isRequired
-    }
     componentWillMount(){
-        this.dates = this.props.content.map((content)=>{content.date})
+        this.dates = this.props.content.map((content)=>{return content.date})
     }
     componentWillReceiveProps(){
-        this.dates = this.props.content.map((content)=>content.date);
+        this.dates = this.props.content.map((content)=>{content.date});
     }
     render() {
         const state = this.state;
@@ -52,7 +49,7 @@ export default class index extends Component {
             <>
                 <div style={{width: '80%', height:'100px', margin:'0 auto'}}>
                     <HorizontalTimeline 
-                        fillingMotion={{stiffness: state.fillingMotionStiffness, damping: fillingMotionDamping}}
+                        fillingMotion={{stiffness: state.fillingMotionStiffness, damping: state.fillingMotionDamping}}
                         index={this.state.value}
                         indexClick={(index)=>this.setState({value: index, previus: this.state.value})}
                         isKeyboardEnabled={state.isKeyboardEnabled}
