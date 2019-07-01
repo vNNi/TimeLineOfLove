@@ -1,18 +1,11 @@
-/* eslint-disable max-len*/
-const S1 = 'Peterson and Lakshman were joined by Julian Lefay who, according to Peterson, "really spear-headed the initial development of the series." Peterson, Lakshman, and LeFay were longtime aficionados of pencil and paper role-playing games, which greatly influenced the creation of the world of Tamriel. They were also fans of Looking Glass Studios\' Ultima Underworld series, their main inspiration for Arena. Initially, Arena was not to be a role-playing game at all. The player, and a team of his fighters, would travel about a world fighting other teams in their arenas until the player became "grand champion" in the world\'s capital, the Imperial City. Along the way, side quests of a more role-playing nature could be completed. As the process of development progressed, however, the tournaments became less important and the side quests more. RPG elements were added to the game, as it expanded to include cities outside the arenas, and dungeons beyond the cities. Eventually it was decided to drop the idea of tournaments altogether, and focus on quests and dungeons, making the game a "full-blown RPG." Although the team had dropped all arena combat from the game, all the material had already been printed up with the title, so the game went to market as The Elder Scrolls: Arena. Bethesda Founder Christopher Weaver came up with the name of "The Elder Scrolls", and the words eventually came to mean "Tamriel\'s mystical tomes of knowledge that told of its past, present, and future." The game\'s initial voice-over was changed in response, beginning: "It has been foretold in the Elder Scrolls ..."\nBethesda missed their Christmas 1993 deadline. The game was released in the first quarter of 1994, \"really serious for a small developer/publisher like Bethesda Softworks.\" The packaging included a scantily clad female warrior, which further contributed to distributor concern, leading to an initial distribution of only 20,000 units. Having missed the Christmas sales season, the development team was concerned that \"We had screwed the company.\" Nevertheless, sales continued to grow, month after month, as news of the game was passed by word-of-mouth. Despite some initial bugginess, and the formidable demands the game made on players\' machines, it became a cult hit. Evaluations of the game varied from \"modest\" to \"wild.\" Still, the game maintained traction with its audience. Game historian Matt Barton concluded that \"the game set a new standard for this type of CRPG, and demonstrated just how much room was left for innovation.\" ';
-const S2 = 'Work on The Elder Scrolls II: Daggerfall began immediately after Arena\'s release in March 1994. Ted Peterson was assigned the role of Lead Game Designer. Daggerfall\'s plot was less clichéd than Arena\'s and involved a "complex series of adventures leading to multiple resolutions." With Daggerfall, Arena\'s experience-point-based system was replaced with one rewarding the player for actually role-playing their character. Daggerfall came equipped with an improved character generation engine, one that included a GURPS-influenced class creation system, offering players the chance to create their own classes, and assign their own skills. Daggerfall was developed with an XnGine engine, one of the first truly 3D engines. Daggerfall realized a game world the size of Great Britain, filled with 15,000 towns and a population of 750,000. It was influenced by analog games and literature that Julian LeFay or Ted Peterson happened to be playing or reading at the time, such as Dumas\'s The Man in the Iron Mask and Vampire: The Masquerade. It was released on August 31, 1996. Like Arena, Daggerfall\'s initial release suffered from some bugs, leaving consumers disgruntled. These early anomalies were fixed in later versions. This experience led to a more prudent release schedule for future games.';
-const S3 = 'The third title in The Elder Scrolls series was first conceived during the development of Daggerfall. Initially designed to encompass the whole province of Morrowind and allow the player to join all five Dunmer Great Houses, it was decided that the scope of the game was too much for the technology available at the time. At publication, it covered just the isle of Vvardenfell and allowed the player to only join three of the Great Houses. The XnGine was scrapped and replaced with Numerical Design Limited\'s Gamebryo, a Direct3D powered engine, with T&L capacity, 32-bit textures and skeletal animation. It was decided that the game world would be populated using the methods the team had developed in Redguard; with the game objects crafted by hand, rather than generated using the random algorithmic methods.\nThe project took "close to 100 man-years to create." Bethesda tripled their staff and spent the first year developing The Elder Scrolls Construction Set. This allowed the game staff to easily balance the game and to modify it in small increments rather than large. Ted Peterson, who had left following the release of Daggerfall, returned to work as an author of in-game material, and as a general consultant on the lore-based aspects of the work. The PC version of Morrowind had gone gold by April 23, 2002, and was released on May 1 in North America, with the Xbox release set at June 7. On January 3, Bethesda announced that game publisher Ubisoft would take control of Morrowind\'s European distribution, in addition to those of eight other Bethesda games.\nThe Elder Scrolls III: Tribunal expansion pack went gold on November 1 and was released, with little fanfare, on November 6. Tribunal puts the player in the self-contained, walled city of Mournhold, which can be teleported to from Morrowind\'s land mass. Development on the expansion began immediately after Morrowind shipped, giving the developers a mere five-month development cycle to release the game. The prior existence of the Construction Set, however, meant that the team "already had the tools in place to add content and features very quickly." Interface improvements, and specifically an overhaul of Morrowind\'s journal system, were among the key goals. Morrowind\'s second expansion, The Elder Scrolls III: Bloodmoon, went gold by May 23, and was released on June 6. It had been worked on since the release of Tribunal. In the expansion, the player travels to the frozen island of Solstheim and is asked to investigate the uneasiness of the soldiers stationed there.';
-const S4 = 'Work on The Elder Scrolls IV: Oblivion began in 2002, immediately after Morrowind\'s publication. Oblivion was developed by Bethesda Softworks, and the initial Xbox 360 and Personal computer (PC) releases were co-published by Bethesda and Take-Two Interactive subsidiary 2K Games. Oblivion was released on March 21, 2006. The game centers around an event later referred to as "The Oblivion Crisis", where portals to the planes of Oblivion open and release hordes of Daedra upon Tamriel. Developers working on Oblivion focused on providing a tighter storyline, more developed characters, and to make information in the game world more accessible to players. Oblivion features improved AI, improved physics, and improved graphics. Bethesda developed and implemented procedural content creation tools in the creation of Oblivion\'s terrain, leading to landscapes that are more complex and realistic than those of past titles, but had less of a drain on Bethesda\'s staff. Two downloadable expansion packs, Knights of the Nine and The Shivering Isles were released in 2006 and 2007, respectively. Knights of the Nine added a questline surrounding the search for a set of Crusader relics, while The Shivering Isles added the eponymous plane of Oblivion to the game.';
-const S5 = 'In August 2010, Todd Howard revealed Bethesda were currently working on a game that had been in development since the release of Oblivion, and that progress was very far along. While the game was conceptualized after Oblivion\'s release, main development was restricted until after Fallout 3 was released. In November, a journalist from Eurogamer Denmark reported overhearing a developer on a plane talking about the project; a new The Elder Scrolls game, although Bethesda did not comment on the report. At the Spike Video Game Awards in December, Todd Howard appeared on stage to unveil a teaser trailer and announce the title of the game. The Elder Scrolls V: Skyrim was released on November 11, 2011 to widespread critical acclaim. It was awarded \'Game of the Year\' by IGN, Spike and others. The game is set after the events of Oblivion, when the great dragon Alduin the World Eater returns to Skyrim; a beast whose existence threatens all life in Tamriel. Three pieces of DLC were released on PC and Xbox 360 in 2012- Dawnguard, Hearthfire and Dragonborn, with a PlayStation 3 release in February 2013. Dawnguard added two joinable factions and an associated questline revolving around Vampires, while Hearthfire added more home customisation options. Dragonborn added the island of Solstheim to the northeast.';
-/* eslint-enable max-len*/
-
 import img1 from '../Assets/Images/1.PNG';
 import img2 from '../Assets/Images/2.JPG';
 import img3 from '../Assets/Images/3.JPG';
+import img3andHalf from '../Assets/3,5.JPG';
 import img4 from '../Assets/Images/4.JPG';
 import img5 from '../Assets/Images/5.JPG';
 import img6 from '../Assets/Images/6.JPG';
-import img7 from '../Assets/Images/7.JPG';
+import img7 from '../Assets/Images/7.jpg';
 import img8 from '../Assets/Images/8.JPG';
 import img9 from '../Assets/Images/9.PNG';
 import img10 from '../Assets/Images/10.JPG';
@@ -20,14 +13,14 @@ import img11 from '../Assets/Images/11.JPG';
 import img12 from '../Assets/Images/12.JPG';
 import img13 from '../Assets/Images/13.JPG';
 import img14 from '../Assets/Images/14.JPG';
-import img15 from '../Assets/Images/15.JPG';
+import img15 from '../Assets/Images/15.jpg';
 import img16 from '../Assets/Images/16.jpeg';
 import img17 from '../Assets/Images/17.JPG';
 import img18 from '../Assets/Images/18.jpeg';
 import img19 from '../Assets/Images/19.JPG';
 import img20 from '../Assets/Images/20.JPG';
 import img21 from '../Assets/Images/21.JPG';
-import img22 from '../Assets/Images/22.JPG';
+import img22 from '../Assets/Images/22.jpg';
 import img23 from '../Assets/Images/23.jpg';
 import img24 from '../Assets/Images/24.JPEG'; 
 import img25 from '../Assets/Images/25.JPG';
@@ -40,9 +33,17 @@ import img31 from '../Assets/Images/31.JPEG';
 import img32 from '../Assets/Images/32.JPEG';
 import img33 from '../Assets/Images/33.JPG';
 
+const S1 = `Vamos ao ponto 0, o início de tudo. Na escola, ensino médio, você me disse que antes de me conhecer, me achava bonitinho, porém eu era muito bobo e nunca percebi (e nem acreditaria) que uma menina linda como você pudesse sequer reparar em mim. Mas tudo isso ia mudar, o destino ia nos colocar na mesma festa. Festa vai, festa vem, decido ir embora, quando estou saindo pela porta da casa, meu olhar esbarra com o teu, foi o momento mais mágico da minha vida, nunca tinha sentido nada parecido na minha vida inteira, nunca tinha visto uma mulher tão bonita como aquela menina, decidi que precisava fazer alguma coisa, precisava no minímo dizer um oi... Mas não foi possível, ainda bem, se não nada do que vivo hoje seria possível. Antes de ir embora da festa, falei com uma amiga que queria te conhecer, mas não rolou e infelizmente fui embora. Na segunda-feira, na escola, essa minha amiga veio com uma notícia ABSURDA para mim, dizendo que aquela menina, que me apaixonei só de olhar, também queria me conhecer ! foi assim que tudo começou, com essa imagem, eu peguei o número da minha futura esposa. `;
+const S2 = `Infelizmente não temos fotos do dia do nosso primeiro beijo, mas me lembro de cada detalhe. Nunca tinha ficado tão nervoso para sair do curso e ir pra escolha, como naquele sábado e nunca tive tanta coragem na minha vida para andar até você, sentada na arquibancada, te chamar para conversar, mesmo que sem quase nenhum assunto em comum, consegui o que eu mais queria, além de ser visto com você rsrsrs, conseguia o primeiro beijo, de muitos. A partir dai, parece que viramos duas crianças com seus brinquedos favoritos, não nos desgrudamos mais, tudo fluia tão bem, tão certinho, que parecia coisa de filme, eu não sei expressar até hoje o tamanho da sorte que tivemos. E essa foto é a nossa primeira juntos, mesmo uma foto besta como essa, mostra como a gente já se dava muito bem, eu confesso que estava empenhado em conquistar essa loirinha maravilhosa.`;
+const S3 = `Nós dois adquirimos uma intimidade muito maior nesse dia, pois eu estava começando a entender quem era você de verdade e você quem era o Vinícius, lembro que te dediquei uma música que faz sentido até hoje. Ficamos horas e horas só conversando e eu nem via o tempo passar, creio que ali eu ja estava completamente apaixonado.`
+const S3AndHalf = `Todo dia desciamos a tuiti depois da escola, juntinhos, eu contava os minutos para a aula acabar pra eu poder passar mais uma tarde com você, e nesse dia, estavamos na frente do metrô, onde passou um rapaz vendendo rosas, eu te perguntei se você queria, tu respondeu que não e não gostava muito de flores, acha aquilo brega, porém eu vi como você continuava olhando, com uma carinha de quem queria mt ganhar, então comprei e te dei. Assim eu comecei a entender mais um tiquinho de você, que dificilmente irá falar o que realmente quer ou não, você gosta que façam, e eu adoro ver seu rostinho quando te ofereço algo que quer muito e está com vergonha de pedir!!!`;
+const S4 = `O tempo foi passando e entramos de férias, mas acredita que nunca passou nem um minuto na minha cabeça que as férias poderiam estragar o que a gente tinha? Acho que lá dentro eu ja sabia que era algo muito valioso e nada ia afastar a gente. Aqui nessa foto, foi no meu aniverśario, o primeiro que passamos juntos, você me disse que queria ir em lugar diferente, e deu a idéia de irmos na Paulista, tu sempre disse que adorava lá, e começou aqui uma coisa muito bonita que eu tenho por ti, eu quero te ajudar a conhecer e viver experiências novas, até o final da minha vida!`
+const S5 = 'In August 2010, Todd Howard revealed Bethesda were currently working on a game that had been in development since the release of Oblivion, and that progress was very far along. While the game was conceptualized after Oblivion\'s release, main development was restricted until after Fallout 3 was released. In November, a journalist from Eurogamer Denmark reported overhearing a developer on a plane talking about the project; a new The Elder Scrolls game, although Bethesda did not comment on the report. At the Spike Video Game Awards in December, Todd Howard appeared on stage to unveil a teaser trailer and announce the title of the game. The Elder Scrolls V: Skyrim was released on November 11, 2011 to widespread critical acclaim. It was awarded \'Game of the Year\' by IGN, Spike and others. The game is set after the events of Oblivion, when the great dragon Alduin the World Eater returns to Skyrim; a beast whose existence threatens all life in Tamriel. Three pieces of DLC were released on PC and Xbox 360 in 2012- Dawnguard, Hearthfire and Dragonborn, with a PlayStation 3 release in February 2013. Dawnguard added two joinable factions and an associated questline revolving around Vampires, while Hearthfire added more home customisation options. Dragonborn added the island of Solstheim to the northeast.';
+
+
 const data = [
   {
-    date: '01/01/1994',
+    date: '21/10/2016',
     photo: img1,
 
     title: 'The Elder Scrolls: 1',
@@ -50,223 +51,231 @@ const data = [
     content: S1
   },
   {
-    date: '08/31/1996',
+    date: '10/11/2016',
     photo: img2,
     title: 'The Elder Scrolls: 2',
     subtitle: 'Daggerfall',
     content: S2
   },
   {
-    date: '05/02/2002',
+    date: '01/12/2016',
     photo: img3,
     title: 'The Elder Scrolls: 3',
     subtitle: 'Morrowind',
     content: S3
   },
   {
-    date: '03/20/2006',
+    date: '02/12/2016',
+    photo: img3andHalf,
+    title: 'The Elder Scrolls: 3',
+    subtitle: 'Morrowind',
+    content: S3AndHalf
+  },
+  {
+    date: '08/12/2016',
     photo: img4,
     title: 'The Elder Scrolls: 4',
     subtitle: 'Oblivion',
     content: S4
   },
   {
-    date: '11/11/2011',
+    date: '15/12/2016',
     photo: img5,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '18/12/2016',
     photo: img6,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
-  },{
-    date: '11/11/2011',
+  },
+  {
+    date: '11/01/2017',
     photo: img7,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '17/03/2017',
     photo: img8,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '17/04/2016',
     photo: img9,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '10/06/2017',
     photo: img10,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '18/06/2017',
     photo: img11,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '31/07/2017',
     photo: img12,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '17/10/2017',
     photo: img13,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '14/11/2017',
     photo: img14,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '08/12/2017',
     photo: img15,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '17/12/2017',
     photo: img16,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '31/12/2017',
     photo: img17,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '04/01/2018',
     photo: img18,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '03/02/2018',
     photo: img19,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '27/07/2018',
     photo: img20,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '25/08/2018',
     photo: img21,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '07/09/2018',
     photo: img22,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '14/10/2018',
     photo: img23,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '01/11/2018',
     photo: img24,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '08/12/2018',
     photo: img25,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '14/12/2018',
     photo: img26,
-    title: 'The Elder Scrolls: 5',
+    title: 'Primeira viagem juntinhos!',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '19/12/2018',
     photo: img27,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '25/12/2018',
     photo: img28,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '01/01/2019',
     photo: img29,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '12/01/2019',
     photo: img30,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '02/03/2019',
     photo: img31,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '17/03/2019',
     photo: img32,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/11/2011',
+    date: '05/05/2019',
     photo: img33,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
