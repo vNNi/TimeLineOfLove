@@ -43,7 +43,7 @@ const S5 = 'In August 2010, Todd Howard revealed Bethesda were currently working
 
 const data = [
   {
-    date: '21/10/2016',
+    date: '11/21/2016',
     photo: img1,
 
     title: 'The Elder Scrolls: 1',
@@ -51,196 +51,196 @@ const data = [
     content: S1
   },
   {
-    date: '10/11/2016',
+    date: '11/10/2016',
     photo: img2,
     title: 'The Elder Scrolls: 2',
     subtitle: 'Daggerfall',
     content: S2
   },
   {
-    date: '01/12/2016',
+    date: '12/01/2016',
     photo: img3,
     title: 'The Elder Scrolls: 3',
     subtitle: 'Morrowind',
     content: S3
   },
   {
-    date: '02/12/2016',
+    date: '12/02/2016',
     photo: img3andHalf,
     title: 'The Elder Scrolls: 3',
     subtitle: 'Morrowind',
     content: S3AndHalf
   },
   {
-    date: '08/12/2016',
+    date: '12/08/2016',
     photo: img4,
     title: 'The Elder Scrolls: 4',
     subtitle: 'Oblivion',
     content: S4
   },
   {
-    date: '15/12/2016',
+    date: '12/15/2016',
     photo: img5,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '18/12/2016',
+    date: '12/18/2016',
     photo: img6,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '11/01/2017',
+    date: '01/11/2017',
     photo: img7,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '17/03/2017',
+    date: '03/17/2017',
     photo: img8,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '17/04/2016',
+    date: '04/17/2016',
     photo: img9,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '10/06/2017',
+    date: '06/10/2017',
     photo: img10,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '18/06/2017',
+    date: '06/18/2017',
     photo: img11,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '31/07/2017',
+    date: '07/31/2017',
     photo: img12,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '17/10/2017',
+    date: '10/17/2017',
     photo: img13,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '14/11/2017',
+    date: '11/14/2017',
     photo: img14,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '08/12/2017',
+    date: '12/08/2017',
     photo: img15,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '17/12/2017',
+    date: '12/17/2017',
     photo: img16,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '31/12/2017',
+    date: '12/31/2017',
     photo: img17,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '04/01/2018',
+    date: '01/04/2018',
     photo: img18,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '03/02/2018',
+    date: '02/03/2018',
     photo: img19,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '27/07/2018',
+    date: '07/27/2018',
     photo: img20,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '25/08/2018',
+    date: '08/25/2018',
     photo: img21,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '07/09/2018',
+    date: '09/07/2018',
     photo: img22,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '14/10/2018',
+    date: '10/14/2018',
     photo: img23,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '01/11/2018',
+    date: '11/01/2018',
     photo: img24,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '08/12/2018',
+    date: '12/08/2018',
     photo: img25,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '14/12/2018',
+    date: '12/14/2018',
     photo: img26,
     title: 'Primeira viagem juntinhos!',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '19/12/2018',
+    date: '12/19/2018',
     photo: img27,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '25/12/2018',
+    date: '12/25/2018',
     photo: img28,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
@@ -254,21 +254,21 @@ const data = [
     content: S5
   },
   {
-    date: '12/01/2019',
+    date: '01/12/2019',
     photo: img30,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '02/03/2019',
+    date: '03/02/2019',
     photo: img31,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
     content: S5
   },
   {
-    date: '17/03/2019',
+    date: '03/172019',
     photo: img32,
     title: 'The Elder Scrolls: 5',
     subtitle: 'Skyrim',
