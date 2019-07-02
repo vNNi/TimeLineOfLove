@@ -19,7 +19,7 @@ export default function index(props) {
         <div>
             <h1 {...title} {...desc} >{props.title}</h1>
             <div style={{margin: '0 10%'}}>
-                <img {...img} src={props.img}/>
+                {props.img? <img {...img} src={props.img}/>:null}
             </div>
             <hr/>
             <div style={{margin: '0 5%'}}>
