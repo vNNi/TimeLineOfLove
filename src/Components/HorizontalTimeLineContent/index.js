@@ -33,8 +33,8 @@ export default class index extends Component {
     componentWillMount(){
         this.dates = this.props.content.map((content)=>{return content.date})
     }
-    componentWillReceiveProps(){
-        this.dates = this.props.content.map((content)=>{content.date});
+    componentWillReceiveProps(next){
+        this.dates = next.content.map((content)=>{content.date});
     }
     render() {
         const state = this.state;
