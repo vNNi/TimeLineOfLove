@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`date renders correctly with all props 1`] = `
+<div>
+  <h1
+    data-css-1yv2jt6=""
+    data-css-8pban5=""
+  >
+    teste
+  </h1>
+  <div
+    style={
+      Object {
+        "margin": "0 10%",
+      }
+    }
+  />
+  <hr />
+  <div
+    style={
+      Object {
+        "margin": "0 5%",
+      }
+    }
+  >
+    <p
+      data-css-8pban5=""
+    >
+      teste2
+    </p>
+  </div>
+</div>
+`;
+
+exports[`date renders correctly without image 1`] = `
+<div>
+  <h1
+    data-css-1yv2jt6=""
+    data-css-8pban5=""
+  >
+    teste
+  </h1>
+  <div
+    style={
+      Object {
+        "margin": "0 10%",
+      }
+    }
+  />
+  <hr />
+  <div
+    style={
+      Object {
+        "margin": "0 5%",
+      }
+    }
+  >
+    <p
+      data-css-8pban5=""
+    >
+      teste2
+    </p>
+  </div>
+</div>
+`;
