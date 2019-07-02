@@ -38,7 +38,6 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
-    "css-loader": "^3.0.0",
     "file-loader": "^4.0.0",
     "glamor": "^2.20.40",
     "prop-types": "^15.7.2",
