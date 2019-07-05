@@ -5,7 +5,13 @@ export default function index(props) {
     const audio = React.createRef();
 
     useEffect(()=>{
-        audio.current.play();
+       let playPromise =  audio.current.play();
+       if(playPromise != undefined){
+           playPromise.then((_)=>{
+           }).catch((e)=>{
+                console.log('music error', e);
+           })
+       }
     },[])
     return (
         <>
