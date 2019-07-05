@@ -18,7 +18,7 @@ import img16 from '../Assets/Images/16.jpeg';
 import img17 from '../Assets/Images/17.JPG';
 import img18 from '../Assets/Images/18.jpeg';
 import img19 from '../Assets/Images/19.JPG';
-import img20 from '../Assets/Images/20.JPG';
+import img20 from '../Assets/Images/20.jpg';
 import img21 from '../Assets/Images/21.JPG';
 import img22 from '../Assets/Images/22.jpg';
 import img23 from '../Assets/Images/23.jpg';
@@ -47,246 +47,266 @@ const S10 = 'Esse dia, Lais do céu, tu me surpreendeu muito!!!!! Primeiro pela 
 const S11 = 'Como eu ja tinha dito em outra parte da nossa história, você mudou a minha forma de pensar e, claro, não podia faltar essa foto! toda vez que eu penso nesse dia, eu me pergunto, qual a chance de algum dia eu ir na parada gay sem ter conhecido você, eu não teria ido, o tanto de coisas novas que a gente ja fez juntos, me encanta, e a parada foi uma delas, foi muito, muito legal e eu lembro que eu fazia mais por ti, estava indo por você, mas depois de chegar lá, eu estava por querer estar e foi muito legal!';
 const S12 = 'Aaaah, esse dia eu estava encantado! Eu conheci uma menina totalmente diferente pela qual eu tinha visto a primeira vez e mesmo assim, eu não conseguia tirar o olho dela! Você ficou muito feliz em mudar o cabelo e eu lembro até hoje o quanto se sentia KKKKKKKKKKKK. Você tinha conseguido ficar mais linda do que o normal, simplesmente por ter mudado. E essa foto é importante, para te lembrar, que independente de roupa, tênis, cabelo, olho, nariz, qualquer coisa física, eu vou estar sempre com você e te achando a mulher mais maravilhosa do mundo todo ! Pois a beleza que tu tem, é de outro mundo';
 const S13 = 'Essa aqui foi uma das melhores épocas da minha vida, eu conseguia te ver quase que todo dia da semana, ficavamos deitadinhos de tarde, dando muitos beijinhos, sem preocupações nenhuma sobre a vida, nosso amor era o que eu mais vivia. Já tinhamos uma grande intimidade, lembro de pegar no seu pé para você estudar, eu te ajudando com física, tu indo lá e tirando 10 !!!!! Nós dois, sempre davamos um jeitinho de comemorar os dias 17, ainda damos, mas antes era tudo sem nenhum dinheiro, podia ser uma tarde no ceret, ou uma tarde no sofá de casa, vendo filme!';
+const S14 = 'Com toda certeza esse foi um dia inesquecível, quando eu literalmente conheci uma grande parte da sua família, incluindo seu pai!! Eu estava morrendo de medo, fui no ônibus tremendo de vergonha, de não saber se portar, não saber o que falar ! Quando cheguei, não sabia como você ia me apresentar, mas logo de cara, na sala, ja tinha muita gente, inclusive seu pai, que me cumprimentou, ja pensei que ia rolar aquele papo clichê, mas a noite continuou, fizemos uma surpresa para sua irmã e fui me inturmando com os amigos delas, ainda meio sem jeito, eu confesso que não sou o mais sociável nas primeiras vezes, mas depois vou me acostumando e entendendo quem é quem e me solto, obrigado por respeitar isso ! E nesse dia eu estava morrendo de medo de me acharem ruim pra ti, PRINCIPALMENTE por estar com alergia e meu olho estava muuuuuuito vermelho, não conseguia abrir ele, ja estava pensando o pior... Depois, no outro dia, vim embora e você me disse que seu pai meio que me aprovou e disse que queria um almoço para me conhecer melhor, deu mais medo ainda !!!!!!!!';
+const S15 = 'Essa foto, na minha opinão, é uma das mais bonitas nossas, mesmo que estejamos fazendo careta, a gente combina muito nela !Enfim, esse daqui é mais um aniversário meu, mas aqui como namorados de verdade, eu ja tinha conhecido seu pai e você estava conhecendo minha família! Fomos jantar, minha família todinha, eu, você, Fe, meu pai e minha mãe. Já estava te integrando totalmente a eles. E o mais importante, que desde que nos conhecemos, eu nunca mais passei nenhum aniversário meu sem comemorar, todos eles eu estava com você, me fazendo enxergar tudo de um jeito muito novo e melhor!';
+const S16 = 'Esse final de ano foi muita emoção pra mim, nós estávamos realmente assumindo o namoro para sua família e com isso, comecei a frequentar mais sua casa e chegou a primeira festa de família para eu ir, eu confesso que morria de medo desse dia, eu sou muito envergonhado para primeiras apresentações, pois não sei quem as pessoas esperam que eu seja, não gosto dessa sensação de descontrole, porém foi muito, muito legal ! Sua família sempre foi muito boa comigo, e nesse dia não foi diferente, mesmo sendo um dos únicos de fantasia e o namorado da filha mais nova kkkkkkkkkkk, ocorreu tudo bem, percebi que eles são pessoas maravilhosas e que tem coisas em comum comigo também!';
+const S17 = 'Mais uma data que eu estava ansioso, festas de final de ano! Isso para mim era uma responsabilidade muito grande, pois demonstra que realmente a relação é séria e não foi diferente, o difícil foi falar para minha mãe, que o filhinho dela não vai passar o final de ano juntinho, que vai passar com a namorada... E eu sei como foi bom ter passado esse final de ano com você, pois um ano atrás, algum ser infeliz, comentou com você que achava estranho o seu namorado não passar festas de final de ano com você, fiquei bem bravo!!! Porém, quando cheguei ai, toda a vergonha passou, me sentia em casa ! E eu sabia também, como era importante eu estar lá com você, sei o quanto gosta do ano novo.';
+const S18 = 'Essa foto é linda demais ! Nesse dia, era mais uma vez aquela meta de vida que eu tenho, levar você nos lugares que tu mais quer e ainda não teve oportunidade de ir! Fomos na liberdade, almoçamos lá, tiramos muitas fotos e compramos vários docinhos japa para você. Eu amo fazer essas suas vontades, quero que você sinta tudo o que o mundo tem a oferecer, ainda bem que tenho minha vida inteira para ajudar !';
+const S19 = 'Os meses foram se passando, e ambos começaram a evoluir, você se formou no ensino médio e fez formatura. Nós dois somos muito diferentes em diversos aspectos, eu odiava essas aparições em público e você? Adora ! Eu não ligava para formatura e você? Era muito importante para você e eu entendia as nossas diferenças, foi muito emociante ver tu fazendo algo que queria muito, que estava animada e começando a se questionar sobre faculdade, aquela sensação apavorante que eu tinha passado no ano anterior e você me ajudou muito, muito mesmo, era a minha vez de fazer isso por você e eu estava lá, para te tranquilizar e ver você começar a fazer o que mais ama. E olha, eu admiro muito a sua vocação para enfermagem e saúde em geral, você nasceu pra isso!!! A partir dali, eu comecei a pegar muito no seu pé para estudar, lembro que chegamos até a discutir algumas vezes, mas depois de um tempo, eu tenho o orgulho de falar sobre você em relação aos estudos e à faculdade, tu evoluiu muito e eu tenho certeza que não sou só eu que vejo isso!';
+const S20 = 'Nesse dia, foi outra experiência para ambos, eu nunca tinha ido e nem queria ir tão cedo, morria de medo e, minha namorada nunca tinha ido, porém queria ir o mais cedo possível !!!! Assim que você pegou os ingressos, pensei comigo, ferrou, vou ter que superar esse medo, ela quer ir muito ir... E fomos, e foi muuuuuito legal, tentamos tirar várias fotos, gravando vídeo e printando, mas eu estava me sentindo horrível, lembra?? Até que conseguimos, uma das fotos que eu te acho mais bonita, com o cabelo pro lado, do jeito que mais mostra seu rosto, pescoço e orelha, a coisinha mais linda! Passamos o dia nos divertindo e pelo menos eu, superando medo kkkkkkkkkkk, e foi assim, mais um dia, que conseguimos viver a primeira experiência novamente, juntos.';
+const S21 = 'Depois de alguns meses juntos, começamos a ter mais fácilidade para se ver, jantar juntos !!! Lembra como era difícil para você conseguir dormir na minha casa? Tinhamos que fazer uma história só para você ter um motivo para ficar aqui, porém tudo foi mudando, mesmo que hoje você ainda tenha um certo receio, ficou muito mais fácil do que antes! E esse dia da foto, foi muito legal, porquê tiveram alguns sábados, que eu levava você e minha família para jantar, já que meu pai estava trabalhando e eu comecei a ganharm eu próprio dinheiro, me sentia muito bem em poder propor essas coisas para nós, era um sinal de que eu estava amadurecendo e tudo isso, ao seu lado!';
+const S22 = 'Essa fotoooooooooo, eu coloquei ela por alguns motivos, mesmo que tu esteja sozinha. O primeiro, você é maravilhosa, se eu não te conhecesse e fosse falar para Deus, como deveria ser a 8a maravilha do mundo, eu com toda certeza iria descrever você. Tem horas que eu te olho e não consigo acreditar no que vejo, te dão bonito são os traços do seu rosto, as curvas do seu corpo, as cores do seu cabelo e, a forma que seu olhar me enxerga. Outro motivo é que, se tu reparar, nessa foto você está com o cabelo natural, e sem maquiagem nenhuma e isso me encanta, a segurança que você ganhou ao longo dos anos, em deixar seu cabelo assim ( que é a coisa mais linda da vida ), em deixar de usar maquiagem, mesmo o básico ! Isso me deixa orgulhoso do quanto você amadureceu e entendeu a mulher perfeita que é. Obrigado por ser quem é, até hoje.';
+const S23 = 'Seu aniversáriooooooo, você estava tão ansiosa para ele, ficava falando o tempo todo. Lembro que eu tinha te dado um presente semanas antes, para comemorar o dia 17 também, mas esqueci que as pessoas iam dar presentes no dia da festa e eu ficaria de mãos abanando e isso me deixou muito inseguro, sério kkkk. Ai fui lá e dei, na minha opinião, um dos melhores presentes que já te dei, pois combina com a visão que tenho do nosso namoro, quanto mais coisas diferentes vivermos, melhor ! E nada mais difernete do que uma foto impressa em um azulejo, né? hihih. Na sua festa, eu fiz algumas besteira, me arrependo, porém no outro dia você estava feliz em como tudo terminou, que me deixou mais tranquilo. Até cantamos com quem será pra mim, fiquei mega feliz!!!!! E essa foto, tirada nesse dia, é muito, muito bonita, como casal, eu quero mostrar para nossos filhos, para ambos entenderem de como deve ser o amor, porque nessa foto eu vejo a melhor definição de um casal.'
+const S24 = 'Você, é a mulher que eu quero casa, tenho um bilhão de motivos, mas um dos principais, é que nós dois juntos, tanto como namorados, como melhores amigos, somos uma dupla imbátivel, não tenho como descrever o quão bem eu me sinto em sair com você, sabe? Não existe aquele papo de sair escondido da namorada, ou que sem você eu iria curtir mais. Com você é muito melhor, nós dois temos uma conexão muito boa, você ri de todas minhas piadas ruins, eu me admiro em como você faz amizades nos lugares, em como você trata quem está ao nosso redor e faz com que tudo seja muito mais legal. E essa foto reflete tudo o que eu disse, eu faço algumas coisas que tu não gosta, principalmente quando bebo, estou trabalhando nisso e acredito ter melhorado, mas é sempre muito engraçado estar assim com você!!!';
+const S25 = 'Outro aniversáro meuuuuuuu, ja é o 3o que vocẽ está comigo!!! Desde 12/2016 não nos desgrudamos mais, graças a Deus. Coloquei essa foto mais para mostrar que você esteve comigo em todos os momentos da minha vida, desde que entrou e principalmente, por ser o primeiro aniversário que eu realmente quis fazer alguma coisa para meus amigos, pois como disse, antes, não gostava dessas coisas, principalmente por não gostar de quem eu era, mas depois de que conheci você, tudo mudou, tudo mesmo. Muito obrigado por me ajudar com essas coisas e me fazer aproveitar muito mais á vida!';
+const S26 = 'Nossa primeira viagem juntooooooooooooooooooossssss!!!!! Eu sonhava com esse dia, desde que te conheci, sonhava em te levar lá, para bertioga, ainda quero te levar lá só eu e você, mas mesmo assim, foi muito legal, você já estava muito integrada à minha família, eles fizeram questão de te levar, não fui só eu quem quis. E foi muito bom, um lugar que sempre fui, desde pequeno, levar a mulher da minha vida ! Conseguimos aproveitar bastante, tiramos muitos fotos, tudo em família';
+const S27 = 'Você sempre me dizia, que não gostava de flores. Sempre me dizia que não gostava de ursinho. Sempre me dizia que preferiria mil outras coisas do que uma flor e chocolate. E sempre me diziam que mulher era complicado. Eu sempre quis te dar um buquê de flores, mas não tinha certeza de como você ia responder à isso. Resolvi arriscar, como dia 17 é um dia muito especial pra gente (mesmo que dia 19 hihi), resolvi que seria esse dia para te dar uma pequena representatividade do meu amor por você. Foi uma jornada muito gostosa, envolvi minha mãe e tudo hihih. Fui comprar e ir direto pra sua casa, por isso pedi para que me olhasse da varando, fingindo que tinha mudado meu cabelo, queria que você me visse de longe, chegando com um buquê. Foi sensacional, pois não era uma data muito especial e eu tinha certeza de que você não disconfiaria. Pela foto, aparentemente tu adorou e eu me senti como se tivesse concluído uma etapa da vida, sabe? mesmo que sendo clichê, temos de dar uma flor para quem amamos, é demonstrar respeito e gratidão.';
+const S28 = 'Depois de uma viagem com minha família e um ano novo com a sua, não podia ser diferente, né? Nosso primeiro natal juntos e uma viagem com a sua família. Eu estava morrendo de medo, pois eu não sabia se seria bem recebido, pois nós dois sabemos como as pessoas vêm um namoro de "adolescente", então não sabia como reagiriam comigo participando da ceia de natal. Mas deu pra perceber e também passar para eles, que eu e você, realmente nascemos para ficar juntos, não existe idade pra isso, eu sinto que eu não preciso mais procurar nada, eu encontrei sem querer. E com essa viagem, deu pra perceber que eu também estou muito mais próximo da sua família, estou com intimidade ao ponto de fazer piadas e me sentir em casa. Essa sensação é maravilhosa! Além de ter passado o natal com você, sinto que entrei muito mais pra família.';
+const S29 = 'Essa foto é especial pra mim. No ano novo, queria que você passasse comigo, pois eu já tinha passado ano passado com você e esse ano o natal, mas as coisas não saíram como eu queria, fiquei bem triste, pois a mesma sensação que eu tive no natal, queria que você tivesse comigo no ano novo, infelizmente não deu e o dia passou, virou o ano e a gente estava um pouco mal um com o outro, eu por estar triste e não entender que você não conseguiu vir e você triste por eu estar triste ihihi. Mas no outro dia, você tinha prometido vir me ver, eu fiquei ultra feliz, só que alguns minutos antes de vir, me falou que não ia dar, que suas amigas ainda estavam na sua casa, e pronto, eu fiquei muito mais bravo do que triste. Dali 10 minutos o interfone toca e é a princisa, mentindo pra mim e chegando em casa toda plena. Eu fiquei muito feliz, muito mesmo, pois eu só queria te ver, mas também não queria deixar a minha família aqui sózinha, pois meu pai viajou e etc. E você veio até mim e ainda dormiu comigo, fazendo minhas vontades. Muito obrigado por esse dia';
+const S30 = 'Aqui começou mais um ano e a vontade de te viver coisas novas com você continua ! No seu aniversário o Yuri foi direto pra uma trilha e nos deu a idéia de ir também, então combinamos de ir viver essa experiência! E mais uma vez, tu topava tudo, se fosse pra ir até Minas Gerais andando, dúvido que você falaria não, eu com certeza ia falar kkkkkkkkkkkkkkkk, mas você, duvido ! tu é doidinha. Enfim, foi muito daora viver isso contigo, eu sinto que posso tudo com você, é incrível. Você sempre dizia que queria fazer uma trilha e conseguir satisfazer seus desejos, é uma felicidade enorme para mim, muito melhor do que qualquer dinheiro nesse mundo!';
+const S31 = 'Mais uma vez, como uma dupla de dois, fomos curtir o carnaval. Essa data é bem importante, pois nós ja passamos ela longe um do outro e a confiança de ambos não mudou, mesmo nessas datas onde tudo de ruim para um casal acontece, o respeito se manteve e, são essas coisas do nosso relacionamento que quero levar para o mundo inteiro. Esse não foi o melhor dia, mas a foto é pra representar a semana em si, que nós, de novo, curtimos como um casal de melhores amigos. É muito gratificante saber que eu tenho uma namorada que eu posso contar para qualquer coisa comigo, até esconder um corpo.';
+const S32 = 'Dois! dois anos de namoro, quase 3 anos juntos, é bastante tempo, hein? E olha, ja estamos quase chegando na marca do pra sempre, lembra? hihih. Esses anos passaram voando e eu ainda sinto um medo de te perder, sinto uma ansiedade de te levar para algum lugar, de te beijar mal e você não gostar, de falar algo que vai te magoar, ainda sinto que estou te conquistando! E prometo nunca deixar de ser assim, pois você merece, merece o mundo inteiro e eu prometo de tar. Mais uma vez, eu tentando fazer você experimentar de tudo na vida, te levei no outback, onde você até brigou comigo por ter ido sozinho ( mesmo sem nem ter te conhecido kkkkkkkkkkkkkkkkk ). Pra mim foi algo muito especial, porque de novo, estavámos como um casal, comendo e conversando, como se fosse um encontro, em um lugar relativamente chique. Isso mostra como evoluímos, de encontros atrás do shopping, para dentro de um restaurante. Essa trajetória me deixa pensativo, sempre ! Principalmente no ônibus e metrô, que eu choro hihi';
+const S33 = 'Já nesses dias, mês passado para ser mais exato, estamos em uma época da nossa relação de curtir tudo a dois e uma das melhores sensações foi ir à esse show com você. Um artista que tem músicas que te descrevem, que descrevem com letras as sensações que você causa em mim, não pdoeria ser melhor! Tu é a melhor companheira do mundo, cantando a música comigo, agarradinho, bebendo, rindo, tudo o que eu mais queria naquele dia, era estar ali. O momento que ficamos nos beijando enquanto a música estava de fundo, eu me senti em um filme na vida real, estava com a garota mais bonita do show, me declarando em forma de beijo, me arrepiando a cada abraço e olhar. Obrigado por todos esses anos, todos esses meses e todos esses dias únicos. Lembra quando eu te disse, bem no comecinho que você era uma mulher única? Eu não estava brincando, eu nunca imaginei encontrar uma pessoa com a personalidade tão forte e bonita, você é aquela pessoa que todos precisam ouvir pelo menos, todos precisam saber o que você está pensando, você tem muito a contribuir a quem está ao seu redor. Única beleza que não tem como ser comparada, até hoje não consegui me expressar inteiramente o quanto te olhar é um prazer, ás vezes até mais do que te tocar, sabe? Reparar no seu seu jeito de fazer as coisas, no modo como seu rosto muda quando não concorda com algo, no modo como você exalta a voz e nem respeira para falar quando se interessa em um assunto, no jeito que você dorme quando está muito cansada e o principal, o modo que você tem de falar a verdade sobre tudo e não esconder nada, te faz quem você é. Eu sou o cara mais feliz desse planeta, eu posso não ter a vida de muitos por ai, o dinheiro, o luxo, mas ninguém tem você e, essa é a maior riqueza, que eu tenho só pra mim! OBRIGADO, POR TODA ESSA LINHA DO TEMPO, EU TE AMO MUITO, DOCINHO DE PECUSSU!';
 
 const data = [
   {
     date: '11/21/2016',
     photo: img1,
 
-    title: 'The Elder Scrolls: 1',
-    subtitle: 'Arena',
+    title: 'Ou, me apresenta aquela sua amiga bonita?',
+    subtitle: '',
     content: S1
   },
   {
     date: '11/10/2016',
     photo: img2,
-    title: 'The Elder Scrolls: 2',
-    subtitle: 'Daggerfall',
+    title: '',
+    subtitle: '',
     content: S2
   },
   {
     date: '12/01/2016',
     photo: img3,
-    title: 'The Elder Scrolls: 3',
-    subtitle: 'Morrowind',
+    title: 'Época de se conhecer, e muito!',
+    subtitle: '',
     content: S3
   },
   {
     date: '12/02/2016',
     photo: img3andHalf,
-    title: 'The Elder Scrolls: 3',
-    subtitle: 'Morrowind',
+    title: 'Você quer? - Não',
+    subtitle: '',
     content: S3AndHalf
   },
   {
     date: '12/08/2016',
     photo: img4,
-    title: 'The Elder Scrolls: 4',
-    subtitle: 'Oblivion',
+    title: 'Feliz aniversário - EP 1',
+    subtitle: '',
     content: S4
   },
   {
     date: '12/15/2016',
     photo: img5,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
+    title: 'Cantinho escondido',
+    subtitle: '',
     content: S5
   },
   {
     date: '12/18/2016',
     photo: img6,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
+    title: 'Seu olhar de intimidade',
+    subtitle: '',
     content: S6
   },
   {
     date: '01/11/2017',
     photo: img7,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
+    title: 'Montanha até Maomé',
+    subtitle: '',
     content: S7
   },
   {
     date: '03/17/2017',
     photo: img8,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
+    title: 'Quer namorar comigo?',
+    subtitle: '',
     content: S8
   },
   {
     date: '04/17/2016',
     photo: img9,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
+    title: 'Batata e frango frito, hmmm',
+    subtitle: '',
     content: S9
   },
   {
     date: '06/10/2017',
     photo: img10,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
+    title: 'Quero namorar contigo!',
+    subtitle: '',
     content: S10
   },
   {
     date: '06/18/2017',
     photo: img11,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
+    title: 'Experiências inéditas',
+    subtitle: '',
     content: S11
   },
   {
     date: '07/31/2017',
     photo: img12,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
+    title: 'CARACA QUEM É ESSA MULHER LINDA?',
+    subtitle: '',
     content: S12
   },
   {
     date: '10/17/2017',
     photo: img13,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
+    title: 'Dia 17 deveria ser feriado',
+    subtitle: '',
     content: S13
   },
   {
     date: '11/14/2017',
     photo: img14,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Conhecendo o pai da namorada...',
+    subtitle: '',
+    content: S14
   },
   {
     date: '12/08/2017',
     photo: img15,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Feliz aniversário - EP 2',
+    subtitle: '',
+    content: S15
   },
   {
     date: '12/17/2017',
     photo: img16,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Conhecendo a família, bandidamente!',
+    subtitle: '',
+    content: S16
   },
   {
     date: '12/31/2017',
     photo: img17,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Ano novo de branco, tudo em paz',
+    subtitle: '',
+    content: S17
   },
   {
     date: '01/04/2018',
     photo: img18,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Conhecendo a liberdade!',
+    subtitle: '',
+    content: S18
   },
   {
     date: '02/03/2018',
     photo: img19,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Ficando mocinha, indo pra faculdade !',
+    subtitle: '',
+    content: S19
   },
   {
     date: '07/27/2018',
     photo: img20,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Hopi Hari - O medroso',
+    subtitle: '',
+    content: S20
   },
   {
     date: '08/25/2018',
     photo: img21,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Jantares em família - Engordando',
+    subtitle: '',
+    content: S21
   },
   {
     date: '09/07/2018',
     photo: img22,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: '8a maravilhsa, a MonaLisa',
+    subtitle: '',
+    content: S22
   },
   {
     date: '10/14/2018',
     photo: img23,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Feliz aniverśario - EP Especial!',
+    subtitle: '',
+    content: S23
   },
   {
     date: '11/01/2018',
     photo: img24,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Ficando doidos na rua - EP 1',
+    subtitle: '',
+    content: S24
   },
   {
     date: '12/08/2018',
     photo: img25,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Feliz aniversário - EP 3',
+    subtitle: '',
+    content: S25
   },
   {
     date: '12/14/2018',
     photo: img26,
     title: 'Primeira viagem juntinhos!',
-    subtitle: 'Skyrim',
-    content: S5
+    subtitle: '',
+    content: S26
   },
   {
     date: '12/19/2018',
     photo: img27,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Flores que nunca deveriam morrer',
+    subtitle: '',
+    content: S27
   },
   {
     date: '12/25/2018',
     photo: img28,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Natal em família - feat. Bigode',
+    subtitle: '',
+    content: S28
   },
   {
     date: '01/01/2019',
     photo: img29,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Como salvar um ano novo',
+    subtitle: '',
+    content: S29
   },
   {
     date: '01/12/2019',
     photo: img30,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Perdidos em Paranapiacaba',
+    subtitle: '',
+    content: S30
   },
   {
     date: '03/02/2019',
     photo: img31,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Ficando doidos na rua - EP 2',
+    subtitle: '',
+    content: S31
   },
   {
     date: '03/17/2019',
     photo: img32,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'Ficamos chiques, hein?',
+    subtitle: '',
+    content: S32
   },
   {
     date: '05/05/2019',
     photo: img33,
-    title: 'The Elder Scrolls: 5',
-    subtitle: 'Skyrim',
-    content: S5
+    title: 'O melhor show da minha vida',
+    subtitle: '',
+    content: S33
   }
 ];
 
