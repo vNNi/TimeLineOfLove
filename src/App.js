@@ -4,7 +4,7 @@ import {css} from 'glamor';
 import History from './Resources/content';
 import Date from './Components/Date/index';
 import Colors from './Colors';
-import video from './Assets/test.mp3';
+import video from './Assets/music.mp3';
 import Sound from './Components/Sound/index';
 import HorizontalTimeLineContent from './Components/HorizontalTimeLineContent/index';
 

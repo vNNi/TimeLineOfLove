@@ -9,7 +9,7 @@ export default function index(props) {
     },[])
     return (
         <>
-            <audio ref={audio} controls muted loop style={{display:'none'}}>
+            <audio ref={audio} controls loop style={{display:'none'}}>
                 <source src={props.video} type="audio/mpeg"></source>
             </audio>
         </>
