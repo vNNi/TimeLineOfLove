@@ -11,19 +11,22 @@ export default function index(props) {
         textAlign: 'center',
     });
 
-    const desc = css({
+    const font = css({
         fontFamily: 'Muli, sans-serif',
-    })
+    });
+
+    const desc = css({
+        fontSize: '20px',
+    });
 
     return (
         <div>
-            <h1 {...title} {...desc} >{props.title}</h1>
-            <div style={{margin: '0 10%'}}>
+            <h1 {...title} {...font} >{props.title}</h1>
+            <div style={{margin: '0 8%'}}>
                 {props.img? <img {...img} src={props.img}/>:null}
             </div>
-            <hr/>
             <div style={{margin: '0 5%'}}>
-                <p {...desc}>{props.desc}</p>
+                <p {...desc} {...font}>{props.desc}</p>
             </div>
         </div>
     )
