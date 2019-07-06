@@ -23,12 +23,12 @@ export default function App() {
     });
     return (
         <div>
-            <Sound video={video}/>
             <h1 id='maintitle' {...mainTItle} >Seja bem-vinda a nossa história!</h1>
 
             <HorizontalTimeLineContent
             content={data}
             />
+            <Sound video={video}/>
         </div>
     )
 }

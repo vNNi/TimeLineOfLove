@@ -15,9 +15,11 @@ export default function index(props) {
     },[])
     return (
         <>
-            <audio ref={audio} controls loop autoPlay style={{display: 'none'}}>
-                <source src={props.video} type="audio/mpeg"></source>
-            </audio>
+            <div style={{display: 'flex', justifyContent: 'center'}}>
+                <audio ref={audio} controls loop autoPlay style={{margin: '0 auto'}}>
+                    <source src={props.video} type="audio/mpeg"></source>
+                </audio>
+            </div>
         </>
     )
 }
