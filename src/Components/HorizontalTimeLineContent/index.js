@@ -72,7 +72,10 @@ export default class index extends Component {
                 <div>
                     <SwipeableViews
                         index={this.state.value}
-                        onChangeIndex={(value,previous) => this.setState({value:value,previous: previous})}
+                        onChangeIndex={(value,previous) => {
+                            this.setState({value:value,previous: previous});
+                            window.scrollTo(0,0);
+                        }}
                         resistance
                     >
                         {views}
